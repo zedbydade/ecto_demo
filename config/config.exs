@@ -5,3 +5,5 @@ config :ecto_demo, EctoDemo.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost"
+
+config :ecto_demo, ecto_repos: [EctoDemo.Repo]
