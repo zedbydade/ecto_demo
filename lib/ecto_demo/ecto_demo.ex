@@ -13,3 +13,4 @@ defmodule EctoDemo.EctoDemo do
     |> Ecto.Changeset.validate_required([:first_name, :last_name])
   end
 end
+
